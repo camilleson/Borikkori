@@ -45,35 +45,32 @@ https://www.youtube.com/watch?v=Bk5nmkSkW0U&t=2
 ​
 
 ## 프론트 엔드 업무 파트
-||Main|
-|------|---|
-|설명|- 베스트 레시피, new 레시피 카드 형식으로 react-slick 라이브러리 사용한 캐러셀 기능 구현 <br> - 관심사의 분리(view, 비즈니스 로직 분리)와 추상화 생각하며 코드 작성 <br>|
+- Main
+- 레시피 작성페이지
+- 레시피 상세 페이지
+- 회원상세페이지
+- BEST
+- 회원레시피
+- 컬리의 레시피
 
-||레시피 작성페이지|
-|------|---|
-|설명|- 음식 종류, 요리 순서, 구성 재료, 요리 과정 등을 누구나 쉽게 작성할 수 있는 템플릿 기능 구현 <br> - 각각의 데이터 state에 저장 후 form-data를 사용하여 한 번에 서버로 전송<br> - 각 객체를 추가할 수 있으며, 각각의 input에 값 저장 기능 <br>|
+
+## 내가 맡은  파트
+
+  <img width="800" src="https://postfiles.pstatic.net/MjAyMjA4MjlfNDAg/MDAxNjYxNzU3MjgzNzM0.Lr040Xx1n69r2d9iZmF6wMDJWQ2Rje9utDlED6yfwm0g.KkngWyQEinvjVFiEtLeGjij89rHq3fQUYct0CSdoCPYg.GIF.ka0son/%EB%A7%88%EC%BC%93%EC%BB%AC%EB%A6%AC_%EB%A0%88%EC%8B%9C%ED%94%BC%EC%83%81%EC%84%B8_%EC%95%9E.gif?type=w773"/>
+  
+  <img width="800" src="https://postfiles.pstatic.net/MjAyMjA4MjlfMjQw/MDAxNjYxNzU3MjgzMjUz.3pR1aUZRBxo1eEWaPiXNXFXlDmq30qJIGYMh8CMg-RUg.qvrAzAg3G9vh9hJeWUx_lhtv9EkNfjkItJ-KwXhZCSsg.GIF.ka0son/%EB%A7%88%EC%BC%93%EC%BB%AC%EB%A6%AC_%EB%A0%88%EC%8B%9C%ED%94%BC%EC%83%81%EC%84%B8_%EB%92%A4.gif?type=w773"/>
+
 
 ||레시피 상세 페이지|
 |------|---|
 |설명|- 사용자가 작성한 레시피 내용을 불러와 상세페이지에 나타나도록 구현 <br> -  댓글기능에 질문/일반 댓글 라벨링으로 작성시 구분해서 표시 <br> - 질문에 대한 답변이나 일반 댓글에 대한 반응으로 대댓글 기능 구현 <br>|
 
+  <img width="800" src="https://postfiles.pstatic.net/MjAyMjA4MjlfMTA3/MDAxNjYxNzU3MzcyNTgy.UnaV8GWAnY-lyEgk3Ugk_ZL0l_vPGWGXHFgpyrvhDmMg.gDv23xc6Zqi5aeMkb4j0kaCKgtF9WeXyY4NN8TA42Kkg.PNG.ka0son/%EB%94%94%EC%9E%90%EC%9D%B8-%ED%9A%8C%EC%9B%90%ED%8E%98%EC%9D%B4%EC%A7%80-_%EA%B8%80_%EB%82%B4%EC%9A%A9.png?type=w773"/>
+
+
 ||회원상세페이지|
 |------|---|
 |설명|-정보를 알고 싶은 유저를 클릭하면 해당하는 회원 상세페이지가 보여지도록 구현 <br> -회원 고유의 아이디 값을 받아와서 각각 회원에 따라 다른 회원정보를 나타냄<br> -작성한 레시피와 작성한 후기 두가지의 탭으로 나눠 엔드포인트에 따라 적정 데이터를 받아올 수 있도록함<br>|
-
-
-||BEST|
-|------|---|
-|설명|- 회원 레시피에서 특정 조건 충족시에 베스트 게시판으로 이동 <br> - Infinite Scroll을 통한 데이터 호출<br>|
-
-||회원레시피|
-|------|---|
-|설명|- 각 음식 종류별, 상황별 필터링 적용 <br> - 제목, 내용, 제목 + 내용별 검색 기능 구현<br> - path parameter를 통해 해당 레시피의 디테일 페이지로 routing 구현<br>|
-
-
-||컬리의 레시피|
-|------|---|
-|설명|- 각 음식 종류별, 상황별 필터링 적용 <br> - 제목, 내용, 제목 + 내용별 검색 기능 구현<br> - path parameter를 통해 해당 레시피의 디테일 페이지로 routing 구현<br>|
 
 ​
 ## 협업 도구
